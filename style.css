@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial' , sans-serif;
+}
+.header{
+	margin-top: 10px;
+	margin-left: 10px;
+	display: flex;
+	height: 5%;
+	align-items: center;
+}
+.header img{
+	border-radius: 125px;
+	width: 40px;
+	height: 40px;
+}
+.head-hr{
+	margin-top: 10px;
+}
+.content{
+	display: none;
+}
+.top-button{
+	font-family: 'Arial' , sans-serif;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.top-button button{
+	padding: 4px;
+	width: 25%;
+}
+.content{
+	margin-top: 10px;
+}
+.div-btn{
+	font-family: 'Arial' , sans-serif;
+	padding: 4px;
+	width: 15%;
+	margin-left: 13px;
+}
+.div-content{
+	margin-left: 13px;
+	margin-top: 10px;
+}
+.nav button{
+	font-size: 26px;
+	border: none;
+	background: transparent;
+	margin-left: 13px;
+}
+.nav{
+	margin-left: 50%;
+}
+.body h2{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 22px;
+}
+.body p{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 18px;
+	width: 90%;
+}
+.body b{
+	font-size: 20px;
+}
+#playerForm, #paymentPage, #tournamentDetails {
+            display: none;
+            margin-top: 20px;
+        }
+
+        .player-details {
+            margin-bottom: 10px;
+        }
+
+        .qr-code {
+            display: none;
+            margin-top: 10px;
+        }
+
+        #totalAmount {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Loader styles */
+        #loader {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+        }
+
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 5px;
+            border-radius: 50%;
+            display: inline-block;
+            background-color: #007bff; /* Blue color */
+            animation: bounce 0.6s infinite alternate;
+        }
+
+        .dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes bounce {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-15px); }
+        }
+        .text{
+            margin-left: 27%;
+            margin-top: -32%;
+            font-size: 17px;
+        }
+        .text p{
+            margin-top: -10px;
+        }
+        .prize-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 7%;
+}
+#joinButton{
+    margin-top: 10px;
+    margin-left: 10%;
+    padding: 6px;
+    width: 79%;
+}
+
+.prize-table, .prize-table th, .prize-table td {
+    border: 1px solid #ddd;
+}
+
+.prize-table th, .prize-table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.prize-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
